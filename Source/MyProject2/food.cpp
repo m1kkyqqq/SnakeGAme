@@ -28,8 +28,8 @@ void Afood::Tick(float DeltaTime)
 
 void Afood::RespawnFood()
 {
-	FVector NewLocation = FVector(/* Новые координаты X, Y, Z */);
-	FRotator NewRotation = FRotator(/* Новые углы поворота */);
+	FVector NewLocation = FVector(590,550,60);
+	FRotator NewRotation = FRotator(580,540,60);
 
 	Afood* NewFood = GetWorld()->SpawnActor<Afood>(/* Параметры конструктора */);
 	if (NewFood)
