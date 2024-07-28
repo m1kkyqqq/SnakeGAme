@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "blocksnakee.generated.h"
+#include "blocksnakeee.generated.h"
 
 UCLASS()
-class MYPROJECT2_API Ablocksnakee : public AActor
+class MYPROJECT2_API blocksnakee : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	Ablocksnakee();
+	blocksnakee();
 
 protected:
 	// Called when the game starts or when spawned

@@ -10,7 +10,7 @@ Ablocksnakeee::Ablocksnakeee()
 	Collider1->SetupAttachment(RootComponent);
 
 	Collider2 = CreateDefaultSubobject<USphereComponent>(TEXT("Collider2"));
-	Collider2->SetupAttachment(RootComponent)
+	Collider2->SetupAttachment(RootComponent);
 }
 
 // Called when the game starts or when spawned
