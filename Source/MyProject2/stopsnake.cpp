@@ -4,7 +4,7 @@
 #include "blocksnakeee.h"
 
 // Sets default values
-Ablocksnakeee::Ablocksnakeee()
+blocksnakeee::blocksnakeee()
 {
 Collider1 = CreateDefaultSubobject<USphereComponent>(TEXT("Collider1"));
 Collider1->SetupAttachment(RootComponent);
@@ -14,20 +14,20 @@ Collider2->SetupAttachment(RootComponent);
 }
 
 // Called when the game starts or when spawned
-void Ablocksnakeee::BeginPlay()
+void blocksnakeee::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void Ablocksnakeee::Tick(float DeltaTime)
+void blocksnakeee::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
 }
 
-FVector Ablocksnakeee::RespawnFood()
+FVector blocksnakeee::RespawnFood()
 {
 	float MinX = FMath::Min(Collider1->GetComponentLocation().X, Collider2->GetComponentLocation().X);
 	float MaxX = FMath::Max(Collider1->GetComponentLocation().X, Collider2->GetComponentLocation().X);
