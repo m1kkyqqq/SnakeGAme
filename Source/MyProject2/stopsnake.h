@@ -8,13 +8,13 @@
 #include "blocksnakee.generated.h"
 
 UCLASS()
-class MYPROJECT2_API Ablocksnakeee : public AActor
+class MYPROJECT2_API blocksnakeee : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	Ablocksnakeee();
+	blocksnakeee();
 
 protected:
 	// Called when the game starts or when spawned

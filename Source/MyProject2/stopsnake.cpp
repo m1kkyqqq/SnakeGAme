@@ -6,11 +6,11 @@
 // Sets default values
 Ablocksnakeee::Ablocksnakeee()
 {
-	Collider1 = CreateDefaultSubobject<USphereComponent>(TEXT("Collider1"));
-	Collider1->SetupAttachment(RootComponent);
+Collider1 = CreateDefaultSubobject<USphereComponent>(TEXT("Collider1"));
+Collider1->SetupAttachment(RootComponent);
 
-	Collider2 = CreateDefaultSubobject<USphereComponent>(TEXT("Collider2"));
-	Collider2->SetupAttachment(RootComponent);
+Collider2 = CreateDefaultSubobject<USphereComponent>(TEXT("Collider2"));
+Collider2->SetupAttachment(RootComponent);
 }
 
 // Called when the game starts or when spawned
