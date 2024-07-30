@@ -9,13 +9,13 @@
 
 
 UCLASS()
-class MYPROJECT2_API blocksnake : public AActor, public IMyInterface
+class MYPROJECT2_API Ablocksnake : public AActor, public IMyInterface
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	blocksnake();
+	Ablocksnake();
 
 protected:
 	// Called when the game starts or when spawned

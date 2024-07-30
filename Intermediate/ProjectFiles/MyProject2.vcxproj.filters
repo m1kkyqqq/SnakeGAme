@@ -94,10 +94,10 @@
     <ClInclude Include="..\..\Source\MyProject2\SnakeElementBase.h">
       <Filter>Source\MyProject2</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\MyProject2\stopsnake.cpp">
+    <ClCompile Include="..\..\Source\MyProject2\blocksnakeee.cpp">
       <Filter>Source\MyProject2</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\MyProject2\stopsnake.h">
+    <ClInclude Include="..\..\Source\MyProject2\blocksnakeee.h">
       <Filter>Source\MyProject2</Filter>
     </ClInclude>
   </ItemGroup>
