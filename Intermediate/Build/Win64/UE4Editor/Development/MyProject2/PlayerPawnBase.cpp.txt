@@ -1,0 +1,7 @@
+D:\projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\Definitions.MyProject2.h
+D:\projects\MyProject2\Source\MyProject2\PlayerPawnBase.h
+D:\projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Inc\MyProject2\PlayerPawnBase.generated.h
+D:\UE_4.27\Engine\Source\Runtime\Engine/Classes/Camera/CameraComponent.h
+D:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\projects\MyProject2\Source\MyProject2\snakebase.h
+D:\projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Inc\MyProject2\snakebase.generated.h

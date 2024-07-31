@@ -16,7 +16,7 @@ Collider2->SetupAttachment(RootComponent);
 }
 
 // Called when the game starts or when spawned
-void blocksnakeee::BeginPlay()
+void Ablocksnakeee::BeginPlay()
 {
 	Super::BeginPlay();
 	

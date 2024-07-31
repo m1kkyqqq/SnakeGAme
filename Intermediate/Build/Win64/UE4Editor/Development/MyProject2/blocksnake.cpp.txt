@@ -1,0 +1,7 @@
+D:\projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\Definitions.MyProject2.h
+D:\projects\MyProject2\Source\MyProject2\blocksnake.h
+D:\projects\MyProject2\Source\MyProject2\MyInterface.h
+D:\projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Inc\MyProject2\MyInterface.generated.h
+D:\projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Inc\MyProject2\blocksnake.generated.h
+D:\projects\MyProject2\Source\MyProject2\snakebase.h
+D:\projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Inc\MyProject2\snakebase.generated.h
