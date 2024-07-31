@@ -2,9 +2,11 @@
 
 
 #include "blocksnakeee.h"
+#include "Components/SphereComponent.h"
+
 
 // Sets default values
-blocksnakeee::blocksnakeee()
+Ablocksnakeee::Ablocksnakeee()
 {
 Collider1 = CreateDefaultSubobject<USphereComponent>(TEXT("Collider1"));
 Collider1->SetupAttachment(RootComponent);
@@ -21,13 +23,13 @@ void blocksnakeee::BeginPlay()
 }
 
 // Called every frame
-void blocksnakeee::Tick(float DeltaTime)
+void Ablocksnakeee::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
 }
 
-FVector blocksnakeee::RespawnFood()
+FVector Ablocksnakeee::RespawnFood()
 {
 	float MinX = FMath::Min(Collider1->GetComponentLocation().X, Collider2->GetComponentLocation().X);
 	float MaxX = FMath::Max(Collider1->GetComponentLocation().X, Collider2->GetComponentLocation().X);

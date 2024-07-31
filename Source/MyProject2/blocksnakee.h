@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "blocksnakeee.generated.h"
+#include "blocksnakee.generated.h"
 
 UCLASS()
 class MYPROJECT2_API Ablocksnakee : public AActor
