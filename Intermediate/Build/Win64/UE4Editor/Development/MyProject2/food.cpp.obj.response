@@ -262,8 +262,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
+/FI"D:\projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\projects\MyProject2\Intermediate\Build\Win64\MyProject2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
 "D:\projects\MyProject2\Source\MyProject2\food.cpp"
-/FI"D:\projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\Definitions.h"
+/FI"D:\projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\Definitions.MyProject2.h"
 /Fo"D:\projects\MyProject2\Intermediate\Build\Win64\UE4Editor\Development\MyProject2\food.cpp.obj"
 /TP
 /GR-

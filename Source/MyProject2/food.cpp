@@ -51,7 +51,7 @@ void Afood::Interact(AActor* interactor, bool bIsHead, float SpeedCoeff)
 		{
 			Snake->AddSnakeElement();
 			Snake->SetActorTickInterval(Snake->GetActorTickInterval()* SpeedCoeff);
-			RespawnFood();
+			Destroy();
 		}
 	}
 }
