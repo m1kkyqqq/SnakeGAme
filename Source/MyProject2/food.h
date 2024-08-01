@@ -17,6 +17,7 @@ public:
 	Afood();
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite)
+	UStaticMeshComponent* FoodMeshComponent;
 	float SpeedC = 1.f;
 
 protected:

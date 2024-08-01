@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodefood() {}
 	MYPROJECT2_API UClass* Z_Construct_UClass_Afood();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_MyProject2();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	MYPROJECT2_API UClass* Z_Construct_UClass_UMyInterface_NoRegister();
 // End Cross Module References
 	void Afood::StaticRegisterNativesAfood()
@@ -33,9 +34,9 @@ void EmptyLinkFunctionForGeneratedCodefood() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpeedC_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FoodMeshComponent_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SpeedC;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FoodMeshComponent;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
@@ -52,14 +53,15 @@ void EmptyLinkFunctionForGeneratedCodefood() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Afood_Statics::NewProp_SpeedC_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Afood_Statics::NewProp_FoodMeshComponent_MetaData[] = {
 		{ "Category", "food" },
+		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "food.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_Afood_Statics::NewProp_SpeedC = { "SpeedC", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Afood, SpeedC), METADATA_PARAMS(Z_Construct_UClass_Afood_Statics::NewProp_SpeedC_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_Afood_Statics::NewProp_SpeedC_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_Afood_Statics::NewProp_FoodMeshComponent = { "FoodMeshComponent", nullptr, (EPropertyFlags)0x001000000009000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Afood, FoodMeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_Afood_Statics::NewProp_FoodMeshComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_Afood_Statics::NewProp_FoodMeshComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_Afood_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Afood_Statics::NewProp_SpeedC,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_Afood_Statics::NewProp_FoodMeshComponent,
 	};
 		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_Afood_Statics::InterfaceParams[] = {
 			{ Z_Construct_UClass_UMyInterface_NoRegister, (int32)VTABLE_OFFSET(Afood, IMyInterface), false },
@@ -91,7 +93,7 @@ void EmptyLinkFunctionForGeneratedCodefood() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Afood, 2862581727);
+	IMPLEMENT_CLASS(Afood, 1466009860);
 	template<> MYPROJECT2_API UClass* StaticClass<Afood>()
 	{
 		return Afood::StaticClass();

@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodefoodspeed() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Afoodspeed, 825727901);
+	IMPLEMENT_CLASS(Afoodspeed, 3243099680);
 	template<> MYPROJECT2_API UClass* StaticClass<Afoodspeed>()
 	{
 		return Afoodspeed::StaticClass();
