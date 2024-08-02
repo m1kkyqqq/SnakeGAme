@@ -3,6 +3,7 @@
 
 #include "food.h"
 #include "snakebase.h"
+#include "Kismet/KismetMathLibrary.h"
 
 // Sets default values
 Afood::Afood()
@@ -30,15 +31,22 @@ void Afood::Tick(float DeltaTime)
 
 void Afood::RespawnFood()
 {
-	FVector NewLocation = FVector(590,550,60);
-	FRotator NewRotation = FRotator(580,540,60);
+	float minX = -650.f;
 
-	Afood* NewFood = GetWorld()->SpawnActor<Afood>(/* Параметры конструктора */);
-	if (NewFood)
-	{
-		NewFood->SetActorLocation(NewLocation);
-		NewFood->SetActorRotation(NewRotation);
-	}
+	float maxX = 650.f;
+
+	float minY = -750.f;
+
+	float maxY = 750.f;
+
+	float Z = 70.f;
+
+	FVector NewLocation = FVector(UKismetMathLibrary::RandomFloatInRange(minX, maxX), UKismetMathLibrary::RandomFloatInRange(minY, maxY), Z);
+	FRotator NewRotation = FRotator(0, 0, 0);
+
+
+		SetActorLocation(NewLocation);
+		SetActorRotation(NewRotation);
 }
 
 
@@ -51,7 +59,7 @@ void Afood::Interact(AActor* interactor, bool bIsHead, float SpeedCoeff)
 		{
 			Snake->AddSnakeElement();
 			Snake->SetActorTickInterval(Snake->GetActorTickInterval()* SpeedCoeff);
-			Destroy();
+			RespawnFood();
 		}
 	}
 }
